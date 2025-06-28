@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "my-app": "file:",
-    "ol": "latest"
+    "ol": "latest",
+    "papaparse": "^5.5.3"
   }
 }
