@@ -9,6 +9,7 @@ import VectorSource from 'ol/source/Vector';
 import { LineString } from 'ol/geom';
 import Stroke from 'ol/style/Stroke';
 import Style from 'ol/style/Style';
+import Papa from 'papaparse';
 
 // Get flight IATA & airline from URL parameters
 const urlParams = new URLSearchParams(window.location.search);
