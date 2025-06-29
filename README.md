@@ -2,7 +2,7 @@
 
 A flight tracking application inspired by FlightRadar24. Built with:
 
-- 🧠 Spring Boot (Java)
+- Spring Boot (Java)
 - 🌍 OpenLayers (JS Mapping Library)
 - 🧾 PapaParse (CSV Parsing)
 - ⚡ Vite + JavaScript (Frontend)
@@ -11,7 +11,7 @@ A flight tracking application inspired by FlightRadar24. Built with:
 
 ---
 
-## 📸 Features
+## Features
 
 - Search for real-time flight data by airline name
 - Interactive world map showing flight positions
@@ -21,30 +21,29 @@ A flight tracking application inspired by FlightRadar24. Built with:
 
 ---
 
-## 🧱 Tech Stack
+## Tech Stack
 
 | Layer        | Tech                     |
 |--------------|--------------------------|
 | Backend      | Spring Boot (Java), REST |
-| Frontend     | Vite, Vanilla JS         |
+| Frontend     | Vite, JS         |
 | Mapping      | OpenLayers               |
 | CSV Parsing  | PapaParse                |
-| Infrastructure | Docker, GitLab CI/CD    |
-| Deployment   | AWS ECS with Terraform   |
+| Infrastructure | Docker |
 
 ---
 
-## 🐳 Dockerised Application
+## Dockerised Application
 
 The entire application (frontend + backend) is bundled and served by a single Spring Boot container.
 
-- `vite build` bundles all frontend code into static files (`main-[hash].js`, CSS)
+- `vite build` bundles all frontend code into static files (`main-[hash].js`, `main-[hash].css)
 - These static files are served from Spring Boot's `resources/static` directory
-- No need to copy `node_modules` — all dependencies are bundled into the final JS
+- No need to copy `node_modules`, all dependencies are bundled into the final JS.
 
 ---
 
-## 🚀 Getting Started
+## How to launch
 
 ```bash
 # Clone the repo
