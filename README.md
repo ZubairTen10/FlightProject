@@ -63,7 +63,7 @@ docker build -t flight-app .
 
 # Run container
 docker run -p 8080:8080 -e apiKey=YOUR_API_KEY flight-app
-
+```
 
 ![image](https://github.com/user-attachments/assets/ec0acbd6-7101-4597-9e74-51b773436641)
 
