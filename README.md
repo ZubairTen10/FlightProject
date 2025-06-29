@@ -1,13 +1,13 @@
 # ✈️ Flight Tracker Web Application
 
-A full-stack flight tracking application inspired by FlightRadar24. Built with:
+A flight tracking application inspired by FlightRadar24. Built with:
 
 - 🧠 Spring Boot (Java)
 - 🌍 OpenLayers (JS Mapping Library)
 - 🧾 PapaParse (CSV Parsing)
 - ⚡ Vite + JavaScript (Frontend)
 - 🐳 Docker (Containerisation)
-- 🧪 CI/CD pipeline using GitLab CI
+
 
 ---
 
